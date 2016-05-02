@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-may-2016, 11:48:38
+    Author     : Erik
+*/
+
+.fondo{
+    -fx-background-image: url("fight.png");
+    -fx-side: 20px;
+}
+
+.boton{
+    
+    
+    -fx-background-position: left bottom;
+      -fx-background-radius: 15 15 15 15;
+    -fx-font: 16pt Arial;
+}  
+
+.label{
+   -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5); 
+    -fx-background-color: rgba(255,255,255,0.0);
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-insets: 6 6 6 6 ;
+    -fx-text-fill: rgba(0,0,0,0.7);
+    -fx-font: 16pt Arial;
+
+}
+
+.text{
+    -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5); 
+    
+    
+}
