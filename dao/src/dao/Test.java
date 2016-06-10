@@ -18,8 +18,10 @@ public class Test {
     public static void main(String[] args){
      Empleat empleat = new EmpleatBean(1,"sergi", new Date());
      Empleat empleat2 = new EmpleatBean(2,"joan", new Date());
+     
     EmpleatDAO dao = DAOFactory.crearEmpleatDAOJDBC();
         try {
+            
             dao.crearEmpleat(empleat);
             dao.crearEmpleat(empleat2);
             System.out.println(dao.llistarEmpleats());

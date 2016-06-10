@@ -15,18 +15,13 @@ public class EmpleatBean implements Empleat{
     public EmpleatBean() {
     }
 
-    public EmpleatBean(int codi, String nom) {
-        this.codi = codi;
-        this.nom = nom;
-    }
-
     public EmpleatBean(int codi, String nom, Date dataContracte) {
         this.codi = codi;
         this.nom = nom;
         this.dataContracte = dataContracte;
     }
-    
-    
+
+ 
     @Override
     public int getCodi() {
        return codi;

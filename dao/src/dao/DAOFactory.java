@@ -16,9 +16,6 @@ public class DAOFactory {
 	public static EmpleatDAO crearEmpleatDAOJDBC(){
 		return new EmpleatDAOImpl();
 	}
-        public static EmpleatDAO crearEmpleatDAOFitxers(){
-		//return new EmpleatDAOImplFitxers();
-                return null;
-	}
+       
 
 }

@@ -34,7 +34,7 @@ public class EmpleatDAOImpl implements EmpleatDAO {
             
         
             pstmt = connexio.prepareStatement(
-                    "INSERT INTO EMPLEAT_DAO (codi, nom, data) VALUES (?,?,?)");
+                    "INSERT INTO EMPLEAT_DAO (codi, nom, dataContracte) VALUES (?,?,?)");
             pstmt.setInt(1, empleat.getCodi());
             pstmt.setString(2, empleat.getNom());
             pstmt.setDate(3, new java.sql.Date (empleat.getDataContracte().getTime()) );
